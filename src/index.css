@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --color-netflix-red: #E50914;
+  --color-netflix-black: #141414;
+}
+
+@layer base {
+  body {
+    @apply bg-netflix-black text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .hero-gradient {
+    background-image: linear-gradient(to right, #141414 10%, rgba(20,20,20,0.4) 40%, rgba(20,20,20,0) 80%);
+  }
+  @keyframes ken-burns {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.1); }
+  }
+  .animate-ken-burns {
+    animation: ken-burns 10s ease-in-out infinite alternate;
+  }
+}

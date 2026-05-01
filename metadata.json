@@ -1,0 +1,6 @@
+{
+  "name": "Netflix Clone",
+  "description": "A high-fidelity Netflix UI clone featuring a responsive navbar, cinematic hero banner, and category-based movie rows with hover effects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
