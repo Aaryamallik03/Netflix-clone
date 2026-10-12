@@ -10,10 +10,6 @@ https://netflix-clone-delta-blue-35.vercel.app/
 
 ---
 
-## 📸 Preview
-
----
-
 ## ✨ Features
 
 - 🎥 Netflix-style homepage UI
