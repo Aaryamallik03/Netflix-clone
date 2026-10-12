@@ -11,7 +11,6 @@ https://netflix-clone-delta-blue-35.vercel.app/
 ---
 
 ## 📸 Preview
-(Add screenshots here)
 
 ---
 
